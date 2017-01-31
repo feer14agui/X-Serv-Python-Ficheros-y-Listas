@@ -8,7 +8,7 @@ fich.close
 
 for linea in lineas:
 	Elemento = linea.split(':')
-	print(Elemento[0])
+	print(Elemento[0],Elemento[-1])
 	
 print("Hay " + str(len(lineas)) + " maquinas")
 
